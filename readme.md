@@ -43,7 +43,7 @@ pip install cryptography
    ENCRYPTED_API_KEY = "gAAAAABm..."
    API_KEY_SALT = "sdfY9ns8sdf8nsdf..."
    ```
-5. Copia ambas y pégalas en la parte superior de tu archivo que necesite la clave (por ejemplo, `keylogger.py`).
+5. Copia ambas y pégalas en la parte superior de tu archivo que necesite la clave (por ejemplo, `main.py`).
 
 ---
 
@@ -96,3 +96,4 @@ MIT License — libre para uso y modificación, con atribución al autor origina
 ## 💡 Créditos
 
 Creado por [TuNombre] — inspirado en buenas prácticas de seguridad aplicadas a desarrollo local.
+
