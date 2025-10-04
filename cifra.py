@@ -19,7 +19,7 @@ def derive_key(password: str, salt: bytes) -> bytes:
 def encrypt_api_key():
     """Interfaz para que el usuario cifre su API Key de Google con un PIN."""
     print("--- Herramienta de Cifrado de API Key ---")
-    print("Esta herramienta generará una versión cifrada de tu API Key para el keylogger.")
+    print("Esta herramienta generará una versión cifrada de tu API Key para el proyecto.")
 
     # Obtener la API Key del usuario
     api_key = input("Pega tu API Key de Google Geolocation: ").strip()
@@ -58,3 +58,4 @@ def encrypt_api_key():
 
 if __name__ == "__main__":
     encrypt_api_key()
+
